@@ -12,6 +12,7 @@ import com.demo.workshopMongo.repository.UserRepository;
 @Configuration
 public class Instantiation implements CommandLineRunner{
 
+	//dependencia fraca
 	@Autowired
 	private UserRepository userRepository;
 	
